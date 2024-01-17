@@ -1,0 +1,89 @@
+/* Styling untuk halaman keranjang belanja */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    width: 800px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.item-details p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.item-details input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.item-details button {
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item-details button:hover {
+    background-color: #cc0000;
+}
+
+.cart-summary {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.cart-summary h2 {
+    margin-top: 0;
+}
+
+.cart-summary button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cart-summary button:hover {
+    background-color: #45a049;
+}

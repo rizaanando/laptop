@@ -1,0 +1,60 @@
+/* Stylizing the card body */
+.card-body {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* Stylizing the card title */
+.card-title {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Styling the input fields */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  border-color: #ccc;
+}
+
+/* Styling the login button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Styling the social login buttons */
+.btn-google, .btn-facebook {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-google:hover {
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+}
+
+.btn-facebook:hover {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+/* Styling the forgot password and create account links */
+.small {
+  font-size: 0.85rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.small:hover {
+  text-decoration: underline;
+}

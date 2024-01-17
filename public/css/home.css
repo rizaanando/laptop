@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Page Title
+--------------------------------------------------------------*/
+.pagetitle {
+  margin-top: 15px;
+}
+
+
+.pagetitle h1 {
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #012970;
+}
+
+@media (min-width: 1024px) {
+	.container {
+    margin-left: 125px;
+    margin-right: 54px;
+    width: 693px;
+    margin-top: 93px;
+    }
+  }
+
+@media (min-width: 1366px) {
+	.container {
+    margin-left: 123px;
+    margin-right: 40px;
+    width: 1001px;
+    margin-top: 110px;
+    }
+  }
+
+@media (min-width: 1440px) {
+	.container {
+    margin-top: 128px;
+    margin-left: 140px;
+    margin-right: 40px;
+    width: 1001px;
+}
+}
