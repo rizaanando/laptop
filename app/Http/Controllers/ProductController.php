@@ -74,11 +74,15 @@ class ProductController extends Controller
 
     public function edit($id)
     {
-        // Retrieve product details by ID
-        $product = DB::table('products')->where('id', $id)->first();
+        try {
+            // Retrieve product details by ID
+            $product = Product::findOrFail($id);
 
-        // Show the form to edit the product
-        return view('toko.adminpage.editproducts', compact('product'));
+            // Show the form to edit the product with product details
+            return view('toko.adminpage.editproducts', compact('product'));
+        } catch (\Exception $e) {
+            return redirect()->route('toko.adminpage.products')->with('error', 'Product not found.');
+        }
     }
 
     public function update(Request $request, $id)
@@ -92,12 +96,13 @@ class ProductController extends Controller
             'color' => 'required',
             'price' => 'required|numeric',
             'stock' => 'required|integer',
-            'image' => 'required',
+            'image' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
-    
+
         try {
             // Update product details in the database
-            $product = Product::find($id);
+            $product = Product::findOrFail($id);
+
             $product->update([
                 'product_name' => $request->product_name,
                 'description' => $request->description,
@@ -106,10 +111,19 @@ class ProductController extends Controller
                 'color' => $request->color,
                 'price' => $request->price,
                 'stock' => $request->stock,
-                // Assuming 'image' is a string column
-                'image' => $request->image,
             ]);
-    
+
+            // Check if file exists
+            if ($request->hasFile('image')) {
+                $file = $request->file('image');
+                $filename = $file->getClientOriginalName();
+                $file->storeAs('public/storage/product', $filename);
+
+                // Save the new image path to the product model
+                $product->image = 'storage/product/' . $filename;
+                $product->save();
+            }
+
             // Redirect to the product list page with a success message
             return redirect()->route('toko.adminpage.products')->with('success', 'Product updated successfully.');
         } catch (\Exception $e) {

@@ -106,7 +106,7 @@
 <br><br><br>
 <div class="card-body shadow">
 
-  <img src="{{ asset('img/log.png') }}" alt="Logo" class="logo">
+  <img src="{{ asset('img/ll.png') }}" alt="Logo" class="logo">
   <div class="pt-4 pb-2">
     <h5 class="card-title text-center pb-0 fs-4">Resset Password!</h5>
     <p class="text-center small">Enter your email to reset your password</p>

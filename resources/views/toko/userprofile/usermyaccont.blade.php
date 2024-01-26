@@ -190,10 +190,10 @@
         </div> <br>
         <section>
             <div class="user-details">
-                <div class="img"><img src="{{ asset("img/product-item1.jpg") }}" alt="Profile Picture" class="profile-picture"></div>
+                <div class="img"><img src="{{ asset("img/i6.jpg") }}" alt="Profile Picture" class="profile-picture"></div>
                 <br>
-                <p><strong>Name: John Doe</strong></p>
-                <p>Email: johndoe@example.com</p>
+                <p><strong>Name: Riza</strong></p>
+                <p>Email: riza_anando@gmail.com</p>
                 <a href="{{ route('editprofile') }}">
                 <div class="edit-delete-icons">
                   <svg class="edit" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -207,7 +207,7 @@
     </div>
 </div><br><br><br><br><br><br><br>
 <footer>
-    <p>&copy; 2024 YourWebsite. All rights reserved.</p>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
 </footer>
 <!-- Pastikan jQuery sudah dimuat sebelum kode ini -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

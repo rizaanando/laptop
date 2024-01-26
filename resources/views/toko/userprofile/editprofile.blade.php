@@ -329,7 +329,7 @@ input[type="email"] {
 <div class="container">
     <div class="edit-profile-form">
         <div class="user-avatar">
-            <img src="{{ asset('img/i1.jpg') }}" alt="User Avatar">
+            <img src="{{ asset('img/i6.jpg') }}" alt="User Avatar">
             <input type="file" id="avatar-upload" accept="image/*"> <!-- Input for changing avatar -->
         </div>
         <h2>Edit Profile</h2>

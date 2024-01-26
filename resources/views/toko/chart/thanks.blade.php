@@ -8,7 +8,7 @@
                     <h4>Order Info</h4>
                     <ul class="list">
                         <li><a href="#"><span>Order number</span> : 60235</a></li>
-                        <li><a href="#"><span>Total</span> : Rp.7.010.000</a></li>
+                        <li><a href="#"><span>Total</span> : Rp.5.710.000</a></li>
                         <li><a href="#"><span>Payment method</span> : Check payments</a></li>
                     </ul>
                 </div>
@@ -47,13 +47,13 @@
                     <tbody>
                         <tr>
                             <td>
-                                <p>Pixelstore fresh Blackberry</p>
+                                <p>LENOVO HNKPA T490S</p>
                             </td>
                             <td>
                                 <h5>x 1</h5>
                             </td>
                             <td>
-                                <p> Rp.7.010.000</p>
+                                <p> Rp.5.710.000</p>
                             </td>
                         </tr>
         

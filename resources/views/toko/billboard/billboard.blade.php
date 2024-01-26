@@ -7,7 +7,7 @@
             <div class="row d-flex align-items-center">
               <div class="col-md-6">
                 <div class="banner-content">
-                  <h1 class="display-2 text-uppercase text-dark pb-5">Your Products Are Great.</h1>
+                  <h1 class="display-2 text-uppercase text-dark pb-5">Cheap laptops, guaranteed quality</h1>
                   <a href="{{ route('shop') }}" class="btn btn-medium btn-dark text-uppercase btn-rounded-none">Shop Product</a>
                 </div>
               </div>

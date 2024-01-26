@@ -7,12 +7,9 @@
                 <div class="head">Browse Categories</div>
                 <ul class="main-categories">
                     <li class="main-nav-list"><a data-toggle="collapse" href="#fruitsVegetable" aria-expanded="false" aria-controls="fruitsVegetable"><span
-                             class="lnr lnr-arrow-right"></span>Asus<span class="number">(53)</span></a>
+                             class="lnr lnr-arrow-right"></span>LENOVO<span class="number">(10)</span></a>
                         <ul class="collapse" id="fruitsVegetable" data-toggle="collapse" aria-expanded="false" aria-controls="fruitsVegetable">
-                            <li class="main-nav-list child"><a href="#">asus c11<span class="number">(1)</span></a></li>
-                            <li class="main-nav-list child"><a href="#">asus c7<span class="number">(9)</span></a></li>
-                            <li class="main-nav-list child"><a href="#">asus c1<span class="number">(7)</span></a></li>
-                            <li class="main-nav-list child"><a href="#">asus c2<span class="number">(1)</span></a></li>
+                            <li class="main-nav-list child"><a href="#">LENOVO HNKPA T490S<span class="number">(1)</span></a></li>
                         </ul>
                     </li>
 
@@ -23,11 +20,10 @@
                     <div class="head">Brands</div>
                     <form action="#">
                         <ul>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="apple" name="brand"><label for="apple">asus c1<span>(2)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="asus" name="brand"><label for="asus">Asus<span>(2)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="gionee" name="brand"><label for="gionee">asus c2<span>(1)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="micromax" name="brand"><label for="micromax">asus 7<span>(1)</span></label></li>
-                            <li class="filter-list"><input class="pixel-radio" type="radio" id="samsung" name="brand"><label for="samsung">asus c8<span>(1)</span></label></li>
+                            <li class="filter-list"><input class="pixel-radio" type="radio" id="apple" name="brand"><label for="apple">LENOVO HNKPA T490S<span>(10)</span></label></li>
+                            <li class="filter-list"><input class="pixel-radio" type="radio" id="asus" name="brand"><label for="asus">HP PAVILION 14<span>(10)</span></label></li>
+                            <li class="filter-list"><input class="pixel-radio" type="radio" id="gionee" name="brand"><label for="gionee">Arcer Swift 3 c2<span>(10)</span></label></li>
+                            <li class="filter-list"><input class="pixel-radio" type="radio" id="micromax" name="brand"><label for="micromax">Arcer AMD ATHLON<span>(10)</span></label></li>
                         </ul>
                     </form>
                 </div>
@@ -68,9 +64,6 @@
         <a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
         <a href="#" class="active">1</a>
         <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#" class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
-        <a href="#">6</a>
         <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
     </div>
 </div>
@@ -81,10 +74,33 @@
         <!-- single product -->
         <div class="col-lg-4 col-md-6">
             <div class="single-product">
-                <img class="img-fluid" src="img/product/p1.jpg" alt="">
+                <img class="img-fluid" src="img/product/1.jpg" alt="">
                 <div class="product-details">
-                    <h6>addidas New Hammer sole
-                        for Sports person</h6>
+                    <h6>LENOVO HNKPA T490S </h6>
+                    <div class="price">
+                        <h6>Rp.5.700.000</h6>
+                        <h6 class="l-through">Rp.5.700.000</h6>
+                    </div>
+                    <div class="prd-bottom">
+
+                        <a href="{{ route('chart') }}" class="social-info">
+                            <span class="ti-bag"></span>
+                            <p class="hover-text">add to bag</p>
+                        </a>
+                        <a href="{{ route('detailproducts') }}" class="social-info">
+                            <span class="lnr lnr-move"></span>
+                            <p class="hover-text">view more</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- single product -->
+        <div class="col-lg-4 col-md-6">
+            <div class="single-product">
+                <img class="img-fluid" src="img/product/2.jpg" alt="">
+                <div class="product-details">
+                    <h6>HP PAVILION 14 </h6>
                     <div class="price">
                         <h6>Rp.7.000.000</h6>
                         <h6 class="l-through">Rp.7.800.000</h6>
@@ -106,13 +122,12 @@
         <!-- single product -->
         <div class="col-lg-4 col-md-6">
             <div class="single-product">
-                <img class="img-fluid" src="img/product/p2.jpg" alt="">
+                <img class="img-fluid" src="img/product/3.jpg" alt="">
                 <div class="product-details">
-                    <h6>addidas New Hammer sole
-                        for Sports person</h6>
+                    <h6>Arcer Swift 3</h6>
                     <div class="price">
-                        <h6>Rp.7.000.000</h6>
-                        <h6 class="l-through">Rp.7.800.000</h6>
+                        <h6>Rp.7.300.000</h6>
+                        <h6 class="l-through">Rp.7.300.000</h6>
                     </div>
                     <div class="prd-bottom">
 
@@ -131,13 +146,12 @@
         <!-- single product -->
         <div class="col-lg-4 col-md-6">
             <div class="single-product">
-                <img class="img-fluid" src="img/product/p3.jpg" alt="">
+                <img class="img-fluid" src="img/product/4.jpg" alt="">
                 <div class="product-details">
-                    <h6>addidas New Hammer sole
-                        for Sports person</h6>
+                    <h6>Arcer Swift 3 AMD ATHLON</h6>
                     <div class="price">
-                        <h6>Rp.7.000.000</h6>
-                        <h6 class="l-through">Rp.7.800.000</h6>
+                        <h6>Rp.3.500.000</h6>
+                        <h6 class="l-through">Rp.3.500.000</h6>
                     </div>
                     <div class="prd-bottom">
 
@@ -153,82 +167,54 @@
                 </div>
             </div>
         </div>
-        <!-- single product -->
-        <div class="col-lg-4 col-md-6">
-            <div class="single-product">
-                <img class="img-fluid" src="img/product/p4.jpg" alt="">
-                <div class="product-details">
-                    <h6>addidas New Hammer sole
-                        for Sports person</h6>
-                    <div class="price">
-                        <h6>Rp.7.000.000</h6>
-                        <h6 class="l-through">Rp.7.800.000</h6>
-                    </div>
-                    <div class="prd-bottom">
-
-                        <a href="{{ route('chart') }}" class="social-info">
-                            <span class="ti-bag"></span>
-                            <p class="hover-text">add to bag</p>
-                        </a>
-                        <a href="{{ route('detailproducts') }}" class="social-info">
-                            <span class="lnr lnr-move"></span>
-                            <p class="hover-text">view more</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- single product -->
-        <div class="col-lg-4 col-md-6">
-            <div class="single-product">
-                <img class="img-fluid" src="img/product/p5.jpg" alt="">
-                <div class="product-details">
-                    <h6>addidas New Hammer sole
-                        for Sports person</h6>
-                    <div class="price">
-                        <h6>Rp.7.000.000</h6>
-                        <h6 class="l-through">Rp.7.800.000</h6>
-                    </div>
-                    <div class="prd-bottom">
-
-                        <a href="{{ route('chart') }}" class="social-info">
-                            <span class="ti-bag"></span>
-                            <p class="hover-text">add to bag</p>
-                        </a>
-                        <a href="{{ route('detailproducts') }}" class="social-info">
-                            <span class="lnr lnr-move"></span>
-                            <p class="hover-text">view more</p>
-                        </a>
+               <!-- single product -->
+               <div class="col-lg-4 col-md-6">
+                <div class="single-product">
+                    <img class="img-fluid" src="img/product/2.jpg" alt="">
+                    <div class="product-details">
+                        <h6>HP PAVILION 14 </h6>
+                        <div class="price">
+                            <h6>Rp.7.000.000</h6>
+                            <h6 class="l-through">Rp.7.800.000</h6>
+                        </div>
+                        <div class="prd-bottom">
+    
+                            <a href="{{ route('chart') }}" class="social-info">
+                                <span class="ti-bag"></span>
+                                <p class="hover-text">add to bag</p>
+                            </a>
+                            <a href="{{ route('detailproducts') }}" class="social-info">
+                                <span class="lnr lnr-move"></span>
+                                <p class="hover-text">view more</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- single product -->
-        <div class="col-lg-4 col-md-6">
-            <div class="single-product">
-                <img class="img-fluid" src="img/product/p6.jpg" alt="">
-                <div class="product-details">
-                    <h6>addidas New Hammer sole
-                        for Sports person</h6>
-                    <div class="price">
-                        <h6>Rp.7.000.000</h6>
-                        <h6 class="l-through">Rp.7.800.000</h6>
-                    </div>
-                    <div class="prd-bottom">
-
-                        <a href="{{ route('chart') }}" class="social-info">
-                            <span class="ti-bag"></span>
-                            <p class="hover-text">add to bag</p>
-                        </a>
-                        <a href="{{ route('detailproducts') }}" class="social-info">
-                            <span class="lnr lnr-move"></span>
-                            <p class="hover-text">view more</p>
-                        </a>
+            <!-- single product -->
+            <div class="col-lg-4 col-md-6">
+                <div class="single-product">
+                    <img class="img-fluid" src="img/product/3.jpg" alt="">
+                    <div class="product-details">
+                        <h6>Arcer Swift 3</h6>
+                        <div class="price">
+                            <h6>Rp.7.300.000</h6>
+                            <h6 class="l-through">Rp.7.300.000</h6>
+                        </div>
+                        <div class="prd-bottom">
+    
+                            <a href="{{ route('chart') }}" class="social-info">
+                                <span class="ti-bag"></span>
+                                <p class="hover-text">add to bag</p>
+                            </a>
+                            <a href="{{ route('detailproducts') }}" class="social-info">
+                                <span class="lnr lnr-move"></span>
+                                <p class="hover-text">view more</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </section>
 <!-- End Best Seller -->
 <!-- Start Filter Bar -->
@@ -237,9 +223,6 @@
         <a href="#" class="prev-arrow"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
         <a href="#" class="active">1</a>
         <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#" class="dot-dot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
-        <a href="#">6</a>
         <a href="#" class="next-arrow"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
     </div>
 </div>

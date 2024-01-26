@@ -90,9 +90,15 @@ Route::get('/products/{id}/edit', [ProductController::class, 'edit'])->name('edi
 Route::put('/products/{id}', [ProductController::class, 'update'])->name('products.update');
 Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('products.destroy');
 
+Route::get('/users', [UserController::class, 'index'])->name('toko.adminpage.users');
+Route::get('/users/tambahuser', [UserController::class, 'create'])->name('tambahuser');
+Route::post('/users/tambahuser', [UserController::class, 'store'])->name('tambahuser');
+Route::get('/users/{id}/edit', [UserController::class, 'edit'])->name('edit.user');
+Route::put('/users/{id}', [UserController::class, 'update'])->name('user.update');
+Route::delete('/users/{id}', [UserController::class, 'destroy'])->name('user.destroy');
+
 // routes/web.php
 Route::get('/adminpage/navsidebar', [AdminHomeController::class, 'index'])->name('toko.adminpage.navsidebar');
-Route::get('/adminpage/users', [UserController::class, 'index'])->name('toko.adminpage.users');
 Route::get('/adminpage/products', [ProductController::class, 'index'])->name('toko.adminpage.products');
 Route::get('/adminpage/orders', [OrdersController::class, 'index'])->name('toko.adminpage.orders');
 

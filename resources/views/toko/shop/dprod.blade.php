@@ -7,27 +7,26 @@
             <div class="col-lg-6">
                 <div class="s_Product_carousel">
                     <div class="single-prd-item">
-                        <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+                        <img class="img-fluid" src="img/1.jpg" alt="">
                     </div>
                     <div class="single-prd-item">
-                        <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+                        <img class="img-fluid" src="img/1.jpg" alt="">
                     </div>
                     <div class="single-prd-item">
-                        <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
+                        <img class="img-fluid" src="img/1.jpg" alt="">
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <div class="s_product_text">
-                    <h3>Faded SkyBlu Denim </h3>
-                    <h2>Rp.7.000.000</h2>
+                    <h3>LENOVO HNKPA T490S</h3>
+                    <h2>Rp.5.700.000</h2>
                     <ul class="list">
-                        <li><a class="active" href=""><span>Kategory</span> : Sepatu</a></li>
+                        <li><a class="active" href=""><span>Kategory</span> : Laptop</a></li>
                         <li><a href="#"><span>Stock</span> : 10</a></li>
                     </ul>
-                    <p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
-                        something that can make your interior look awesome, and at the same time give you the pleasant warm feeling
-                        during the winter.</p>
+                    <p>
+                        Lenovo HNKPA T490S, laptop bisnis premium dengan desain ringkas, tampilan Full HD eksklusif, keamanan futuristik, daya tahan baterai mengagumkan, koneksi kilat, dan performa trendy, menjadi pilihan utama untuk mobilitas bisnis yang menarik dan produktif.</p>
                     <div class="product_count">
                         <label for="qty">Quantity:</label>
                         <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:" class="input-text qty">
@@ -68,21 +67,12 @@
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes
-                    and sizes enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in
-                    Reading at the age of 15, where she went to secretarial school and then into an insurance office. After moving to
-                    London and then Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an
-                    officer in the Merchant Navy and after he left the sea in 1956, they bought a pub for a year before John took a
-                    job in Southern Rhodesia with a motor company. Beryl bought their young son a box of watercolours, and when
-                    showing him how to use it, she decided that she herself quite enjoyed painting. John subsequently bought her a
-                    child’s painting set for her birthday and it was with this that she produced her first significant work, a
-                    half-length portrait of a dark-skinned lady with a vacant expression and large drooping breasts. It was aptly
-                    named ‘Hangover’ by Beryl’s husband and</p>
-                <p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing
-                    more and more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and
-                    the death of spouses or grown children leaving for college are all reasons that someone accustomed to cooking for
-                    more than one would suddenly need to learn how to adjust all the cooking practices utilized before into a
-                    streamlined plan of cooking that is more efficient for one person creating less</p>
+                <p>
+                    Lenovo HNKPA T490S, laptop bisnis yang memukau dengan desain ringkas dan tampilan Full HD eksklusif, menawarkan performa hebat dan kreativitas yang merangsang, menjadi teman setia mobilitas bisnis berkat beratnya yang kurang dari 1,5 kg dan ketebalannya yang minimalis, memastikan tampilan profesional di setiap rapat atau konferensi virtual, dengan layar 14 inci yang memberikan visual luar biasa untuk presentasi yang mencuri perhatian dan rapat online yang penuh warna, serta sistem keamanan futuristik seperti sensor sidik jari, kamera wajah, dan TPM untuk menjaga data bisnis tetap aman, memberikan kebebasan tanpa batas untuk berkarya dengan tenang.
+                    
+                    Tidak hanya itu, Lenovo HNKPA T490S juga membawa baterai yang mengagumkan, memastikan produktivitas tanpa henti sepanjang hari, sementara teknologi WiFi 6 dan Thunderbolt memberikan koneksi internet yang cepat dan transfer data yang super smooth, memastikan selalu terhubung dengan dunia di ujung jari Anda, dan dengan sistem pendingin yang efisien, laptop ini tetap cool dan stylish bahkan saat menangani tugas-tugas berat.
+                    
+                    Jadi, upgrade pengalaman bisnis Anda dengan Lenovo HNKPA T490S sekarang juga, pilih performa tinggi dalam desain yang menarik, dan hadirkan sentuhan trendy pada setiap langkah perjalanan bisnis Anda! 💻✨</p>
             </div>
             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="table-responsive">
@@ -90,50 +80,48 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <h5>Lebar</h5>
+                                    <h5>Processor</h5>
                                 </td>
                                 <td>
-                                    <h5>128mm</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Tinggi</h5>
-                                </td>
-                                <td>
-                                    <h5>508mm</h5>
+                                    <h5>Intel Core i7 8665U 1.90 GHz turbo boost up 4.80 GHz 8cpu Vpro</h5>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h5>Berat</h5>
+                                    <h5>GPU</h5>
+                                </td>
+                                <td>intel UHD 620</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Ram</h5>
                                 </td>
                                 <td>
-                                    <h5>52gm</h5>
+                                    <h5>32 gb DDR4</h5>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h5>Pemeriksaan kualitas</h5>
+                                    <h5>Storange</h5>
                                 </td>
                                 <td>
-                                    <h5>ya</h5>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <h5>Warna</h5>
-                                </td>
-                                <td>
-                                    <h5>merah</h5>
+                                    <h5>SSD 256GB/512 NVME</h5>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <h5>Tipe</h5>
+                                    <h5>Display</h5>
                                 </td>
                                 <td>
-                                    <h5>core i5</h5>
+                                    <h5>14" 1920 x 1080 IPS Touchscreen,300 nit</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5> Warna</h5>
+                                </td>
+                                <td>
+                                    <h5>Hitam</h5>
                                 </td>
                             </tr>
                         </tbody>
@@ -152,13 +140,11 @@
                                     </div>
                                     <div class="media-body">
                                         <h4>Blake Ruiz</h4>
-                                        <h5>12th Feb, 2018 at 05:56 pm</h5>
+                                        <h5>12th jan, 2024 at 05:56 pm</h5>
                                         <a class="reply_btn" href="#">Reply</a>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo</p>
+                                <p>Harganya pas dan kualitasnya tidak mengecewakan</p>
                             </div>
                         </div>
                     </div>
@@ -233,9 +219,7 @@
                                         <i class="fa fa-star"></i>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                    commodo</p>
+                                <p>Bagus</p>
                             </div>
                         </div>
                     </div>

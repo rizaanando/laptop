@@ -12,7 +12,7 @@
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="{{asset("img/product-item1.jpg")}}" alt="product-item" class="img-fluid">
+                  <img src="{{asset("img/1.jpg")}}" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
@@ -21,16 +21,16 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 10</a>
+                    <a href="#">LENOVO HNKPA T490S </a>
                   </h3>
-                  <span class="item-price text-primary">$980</span>
+           
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="{{asset("img/product-item2.jpg")}}" alt="product-item" >
+                  <img src="{{asset("img/2.jpg")}}" alt="product-item" >
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
@@ -39,16 +39,16 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 11</a>
+                    <a href="#">HP PAVILION 14</a>
                   </h3>
-                  <span class="item-price text-primary">$1100</span>
+      
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="{{asset("img/product-item3.jpg")}}" alt="product-item" class="img-fluid">
+                  <img src="{{asset("img/3.jpg")}}" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
@@ -57,16 +57,15 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 8</a>
+                    <a href="#">Arcer Swift 3</a>
                   </h3>
-                  <span class="item-price text-primary">$780</span>
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="product-card position-relative">
                 <div class="image-holder">
-                  <img src="{{asset("img/product-item4.jpg")}}" alt="product-item" class="img-fluid">
+                  <img src="{{asset("img/4.jpg")}}" alt="product-item" class="img-fluid">
                 </div>
                 <div class="cart-concern position-absolute">
                   <div class="cart-button d-flex">
@@ -75,28 +74,11 @@
                 </div>
                 <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
                   <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 13</a>
+                    <a href="#">Arcer Swift 3 AMD ATHLON</a>
                   </h3>
-                  <span class="item-price text-primary">$1500</span>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="product-card position-relative">
-                <div class="image-holder">
-                  <img src="{{asset("img/product-item5.jpg")}}" alt="product-item" class="img-fluid">
-                </div>
-                <div class="cart-concern position-absolute">
-                  <div class="cart-button d-flex">
-                    <a href="#" class="btn btn-medium btn-black">Add to Cart<svg class="cart-outline"><use xlink:href="#cart-outline"></use></svg></a>
-                  </div>
-                </div>
-                <div class="card-detail d-flex justify-content-between align-items-baseline pt-3">
-                  <h3 class="card-title text-uppercase">
-                    <a href="#">Iphone 12</a>
-                  </h3>
-                  <span class="item-price text-primary">$1300</span>
-                </div>
               </div>
             </div>
           </div>

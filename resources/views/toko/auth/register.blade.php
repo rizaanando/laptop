@@ -98,7 +98,7 @@
 
   .logo {
     position: fixed;
-    top: 10px;
+    top: -19px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -106,7 +106,7 @@
 <br><br><br>
 <div class="card-body shadow">
 
-  <img src="{{ asset('img/log.png') }}" alt="Logo" class="logo">
+  <img src="{{ asset('img/ll.png') }}" alt="Logo" class="logo">
   <div class="pt-4 pb-2">
     <h5 class="card-title text-center pb-0 fs-4">Create an Account!</h5>
     <p class="text-center small">Fill in the details below to create an account</p>

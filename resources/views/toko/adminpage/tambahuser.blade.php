@@ -193,7 +193,7 @@
  <div class="content">
     <!-- Moved the "Tambah" button here -->
      <div class="sp">
-      <a href="{{ route('productsindex') }}"><button type="button" class="btn btn-success btn-sm ">Kembali</button></a>
+      <a href="{{ route('toko.adminpage.users') }}"><button type="button" class="btn btn-success btn-sm ">Kembali</button></a>
      </div>
   <!-- Check for success message -->
   @if(Session::has('success'))
@@ -213,49 +213,33 @@
     @csrf
 
     <div class="form-group">
-      <label for="product_name">Nama Barang</label>
-      <input class="form-control" id="product_name" name="product_name" required>
+      <label for="name">Nama</label>
+      <input class="form-control" id="name" name="name" required>
     </div>
 
- <div class="form-group">
-  <label for="product_id">Id Barang</label>
-  <select class="form-control" id="product_id" name="product_id" required>
-    <option value="0024">0024</option>
-    <option value="0078">0078</option>
-</select></div>
-
-  <div class="form-group">
-    <label for="description">Deskripsi</label>
-    <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
-  </div>
-  <div class="form-group">
-    <label for="product_type">Processor</label>
-    <input class="form-control" id="product_type" name="product_type" required>
-  </div>
-  <div class="form-group">
-    <label for="color">Warna</label>
-    <input class="form-control" id="color" name="color" required>
-    </div>
-  
     <div class="form-group">
-      <label for="price">Harga (Rp)</label>
-      <select class="form-control" id="price" name="price" required>
-          <option value="4500000">4.500.000</option>
-          <option value="4000000">4.000.000</option>
-          <option value="5700000">5.700.000</option>
-          <option value="7000000">7.000.000</option>
-          <option value="7300000">7.300.000</option>
-          <option value="7500000">7.500.000</option>
-          <option value="9000000">9.000.000</option>
-          <option value="6000000">6.000.000</option>
-          <option value="12000000">12.000.000</option>
-      </select>
-  </div>
-  
-  <div class="form-group">
-    <label for="stock">Stok</label>
-    <input type="number" class="form-control" id="stock" name="stock" required>
-  </div>
+      <label for="username">Username</label>
+      <input class="form-control" id="username" name="username" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input class="form-control" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input class="form-control" id="password" name="password" required>
+    </div>
+
+    <div class="form-group">
+      <label for="role">Role</label>
+      <select class="form-control" id="role" name="role" required>
+        <option value="user">user</option>
+        <option value="admin">admin</option>
+    </select>
+    </div>
+
   <div class="form-group">
     <label for="image">Gambar</label>
     <input type="file" class="form-control-file" id="image" name="image" required>

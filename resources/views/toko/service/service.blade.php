@@ -11,7 +11,7 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Free delivery</h3>
-              <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+              <p>Gatis ongkir khusus wilayah lampung .</p>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Quality guarantee</h3>
-              <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+              <p>kualitas 100% terjamin.</p>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">Daily offers</h3>
-              <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+              <p>sabtu</p>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
             </div>
             <div class="icon-box-content">
               <h3 class="card-title text-uppercase text-dark">100% secure payment</h3>
-              <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+              <p>aman dan terpercaya.</p>
             </div>
           </div>
         </div>

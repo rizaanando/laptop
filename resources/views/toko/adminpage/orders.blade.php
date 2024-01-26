@@ -167,8 +167,8 @@
         <!-- Sample product row -->
         <tr>
           <th scope="row">1</th>
-          <td><img src="path_to_product_image.jpg" class="product-img"></td>
-          <td>Asus Rog</td>
+          <td><img src="{{asset("img/1.jpg")}}" class="product-img"></td>
+          <td>LENOVO HNKPA T490S</td>
           <td>Laptop</td>
           <td>Diterima</td>
           <td>

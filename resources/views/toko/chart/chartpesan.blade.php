@@ -18,15 +18,15 @@
                             <td>
                                 <div class="media">
                                     <div class="d-flex">
-                                        <img src="img/cart.jpg" alt="">
+                                        <img src="img/1.jpg" alt="">
                                     </div>
                                     <div class="media-body">
-                                        <p>Asus core i11 gen new</p>
+                                        <p>LENOVO HNKPA T490S</p>
                                     </div>
                                 </div>
                             </td>
                             <td>
-                                <h5>Rp.7.000.000</h5>
+                                <h5>Rp.5.700.000</h5>
                             </td>
                             <td>
                                 <div class="product_count">
@@ -39,7 +39,7 @@
                                 </div>
                             </td>
                             <td>
-                                <h5>Rp.7.000.000</h5>
+                                <h5>RRp.5.710.000</h5>
                             </td>
                         </tr>
                
@@ -67,7 +67,7 @@
                                 <h5>Subtotal</h5>
                             </td>
                             <td>
-                                <h5>Rp.7.010.000</h5>
+                                <h5>Rp.5.710.000</h5>
                             </td>
                         </tr>
                         <tr class="shipping_area">
@@ -101,6 +101,9 @@
                                         <option value="2">Jakarta</option>
                                     </select>
                                    
+                                    <input type="text" placeholder="Alamat Pengiriman">
+                                    <a class="primary-btn" href="#"> </a>
+
                                     <input type="text" placeholder="Postcode/Zipcode">
                                     <a class="primary-btn" href="{{ route('thanksindex') }}">Pesan Sekarang </a>
                                 </div>

@@ -22,7 +22,7 @@
         <label for="description">Deskripsi</label>
         <textarea id="description" name="description">{{ $product->description }}</textarea>
 
-        <label for="product_type">Tipe Produk</label>
+        <label for="product_type">Processor</label>
         <input type="text" id="product_type" name="product_type" value="{{ $product->product_type }}">
 
         <label for="product_id">ID Produk</label>

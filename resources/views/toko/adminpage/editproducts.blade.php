@@ -214,10 +214,7 @@
   @method('PUT')
     <div class="form-group">
         <label for="product_name">Nama Barang</label>
-        <select class="form-control" id="product_name" name="product_name" required>
-            <option value="Asus" {{ old('product_name', $product->product_name) == 'Asus' ? 'selected' : '' }}>Asus</option>
-            <option value="Notebook" {{ old('product_name', $product->product_name) == 'Notebook' ? 'selected' : '' }}>Notebook</option>
-        </select>
+        <textarea class="form-control" id="product_name" name="product_name" required>{{ old('product_name', $product->product_name) }}</textarea>
     </div>
   
     <div class="form-group">
@@ -234,29 +231,28 @@
     </div>
   
     <div class="form-group">
-        <label for="product_type">Tipe</label>
-        <select class="form-control" id="product_type" name="product_type" required>
-            <option value="Core i1" {{ old('product_type', $product->product_type) == 'Core i1' ? 'selected' : '' }}>Core i1</option>
-            <option value="Core i9" {{ old('product_type', $product->product_type) == 'Core i9' ? 'selected' : '' }}>Core i9</option>
-            <!-- Tambahkan opsi tipe lainnya sesuai kebutuhan -->
-        </select>
+        <label for="product_type">Processor</label>
+        <textarea class="form-control" id="product_type" name="product_type" required> {{ old('product_type', $product->product_type)}}</textarea>
+
     </div>
   
     <div class="form-group">
       <label for="color">Warna</label>
-      <select class="form-control" id="color" name="color" required>
-        <option value="Red" {{ old('color', $product->color) == 'Red' ? 'selected' : '' }}>Red</option>
-        <option value="Yellow" {{ old('color', $product->color) == 'Yellow' ? 'selected' : '' }}>Yellow</option>
-      </select>
+      <textarea class="form-control" id="color" name="color" required>{{ old('color', $product->color)}}</textarea>
     </div>
   
     <div class="form-group">
       <label for="price">Harga (Rp)</label>
       <select class="form-control" id="price" name="price" required>
-          <option value="4000000000" {{ old('price', $product->price) == '4000000000' ? 'selected' : '' }}>4 Juta</option>
-          <option value="9000000000" {{ old('price', $product->price) == '9000000000' ? 'selected' : '' }}>9 Juta</option>
-          <option value="6000000000" {{ old('price', $product->price) == '6000000000' ? 'selected' : '' }}>6 Juta</option>
-          <option value="12000000000" {{ old('price', $product->price) == '12000000000' ? 'selected' : '' }}>12 Juta</option>
+        <option value="4500000">4.500.000</option>
+        <option value="4000000">4.000.000</option>
+        <option value="5700000">5.700.000</option>
+        <option value="7000000">7.000.000</option>
+        <option value="7300000">7.300.000</option>
+        <option value="7500000">7.500.000</option>
+        <option value="9000000">9.000.000</option>
+        <option value="6000000">6.000.000</option>
+        <option value="12000000">12.000.000</option>
       </select>
     </div>
   

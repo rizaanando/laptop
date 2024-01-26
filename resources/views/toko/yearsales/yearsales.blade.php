@@ -1,81 +1,81 @@
-<br id="testimoni"><br><br><br><br><br> <br><br><br><br>
-<section  class="position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="review-content position-relative">
-        <div class="swiper-icon swiper-arrow swiper-arrow-prev position-absolute d-flex align-items-center">
-          <svg class="chevron-left">
-            <use xlink:href="#chevron-left" />
-          </svg>
-        </div>
-        <div class="swiper testimonial-swiper">
-          <div class="quotation text-center">
-            <svg class="quote">
-              <use xlink:href="#quote" />
-            </svg>
-          </div>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide text-center d-flex justify-content-center">
-              <div class="review-item col-md-10">
-                <i class="icon icon-review"></i>
-                <blockquote>“Tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis Pellen tesque pretium feugiat vel morbi suspen dise sagittis lorem habi tasse morbi.”</blockquote>
-                <div class="rating">
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-half">
-                    <use xlink:href="#star-half"></use>
-                  </svg>
-                  <svg class="star star-empty">
-                    <use xlink:href="#star-empty"></use>
-                  </svg>
+<div id="testimoni"> </div>
+<style>
+.testimonial-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    flex: 1;
+}
+
+.testimonial-review {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.author-name {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.author-rating {
+    font-size: 18px;
+}
+
+</style>
+<h2 style="text-align: center">Testimoni</h2>
+  <br>
+<section class="testimonial-section">
+    <div class="testimonial-container">
+        <div class="testimonial-item">
+          <img src="{{asset("img/t1.png")}}" alt="User 1" class="testimonial-image">
+            <div class="testimonial-content">
+                <p class="testimonial-review">"Harga terbaik dan pelayanan luar biasa. Saya sangat puas dengan pembelian saya."</p>
+                <div class="testimonial-author">
+                    <span class="author-name">Heni</span>
+                    <span class="author-rating">⭐⭐⭐⭐⭐</span>
                 </div>
-                <div class="author-detail">
-                  <div class="name text-dark text-uppercase pt-2">Emma Chamberlin</div>
-                </div>
-              </div>
             </div>
-            <div class="swiper-slide text-center d-flex justify-content-center">
-              <div class="review-item col-md-10">
-                <i class="icon icon-review"></i>
-                <blockquote>“A blog is a digital publication that can complement a website or exist independently. A blog may include articles, short posts, listicles, infographics, videos, and other digital content.”</blockquote>
-                <div class="rating">
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-fill">
-                    <use xlink:href="#star-fill"></use>
-                  </svg>
-                  <svg class="star star-empty">
-                    <use xlink:href="#star-empty"></use>
-                  </svg>
+        </div>
+        <div style="text-align: center">
+          <img src="{{asset("img/t1.png")}}" style="width: 80%; height: auto;">
+      </div>      
+        <br>
+        <br><br><br><br><br>
+        <div class="testimonial-item">
+          <img src="{{asset("img/i2.jpg")}}" alt="User 2" class="testimonial-image">
+            <div class="testimonial-content">
+                <p class="testimonial-review">"Produk berkualitas tinggi dan pengiriman cepat. Sangat merekomendasikan!"</p>
+                <div class="testimonial-author">
+                    <span class="author-name">Yusuf</span>
+                    <span class="author-rating">⭐⭐⭐⭐⭐</span>
                 </div>
-                <div class="author-detail">
-                  <div class="name text-dark text-uppercase pt-2">Jennie Rose</div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-        <div class="swiper-icon swiper-arrow swiper-arrow-next position-absolute d-flex align-items-center">
-          <svg class="chevron-right">
-            <use xlink:href="#chevron-right" />
-          </svg>
-        </div>
-      </div>
+        <div style="text-align: center">
+          <img src="{{asset("img/t2.png")}}" style="width: 80%; height: auto;">
+      </div>    
     </div>
-  </div>
-  <div class="swiper-pagination"></div>
 </section>
+
+</body>
+</html>

@@ -147,7 +147,7 @@
  <div class="content">
     <!-- Moved the "Tambah" button here -->
     <h4 style="text-decoration: underline rgba(0, 0, 0, 0.1)">Halaman Admin <span> <b>Users</b></span></h4>
-     <div class="sp"><button type="button" class="btn btn-success btn-sm ">Tambah</button>
+    <a href="{{ route('tambahuser') }}"><div class="sp"><button type="button" class="btn btn-success btn-sm ">Tambah</button></a>
      </div>
 
      <section class="tabb">
@@ -167,7 +167,7 @@
         <!-- Sample product row -->
         <tr>
           <th scope="row">1</th>
-          <td><img src="path_to_product_image.jpg" class="product-img"></td>
+          <td><img src="{{asset("img/men.jpg")}}" class="product-img"></td>
           <td>Riza Anando</td>
           <td>rizaanando2001@gmail.com</td>
           <td>user</td>
